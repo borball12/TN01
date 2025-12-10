@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50 pb-10">
       <Navbar />
-      
+
       <Routes>
         <Route path="/" element={<Dashboard />} /> 
         <Route path="/search" element={<CustomerSearch />} /> 
@@ -27,3 +27,5 @@ function App() {
 }
 
 export default App
+
+//npm run dev
